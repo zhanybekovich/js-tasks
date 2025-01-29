@@ -37,3 +37,27 @@
 // } else {
 //   console.log(word[word.length - 1]);
 // }
+
+// №1  Дано число. Выведите в консоль первую цифру этого числа.
+// let num = 33434;
+// let str = num.toString();
+// console.log(str[0]);
+// №2 Дано число. Выведите в консоль последнюю цифру этого числа.
+// let num = 33434;
+// let str = num.toString();
+// console.log(str[str.length - 1]);
+
+// №3 Дано число. Выведите в консоль сумму первой и последней цифры этого числа.
+// let num = 5234;
+
+// let firstNam = num.toString();
+
+// let firstNam1 = parseInt(firstNam[0]);
+// let lastNam = parseInt(firstNam[firstNam.length - 1]);
+
+// let sum = firstNam1 + lastNam;
+// console.log(sum);
+// // №4 Дано число. Выведите количество цифр в этом числе.
+// let namber = 12344;
+
+// console.log(namber.toString().length);
