@@ -6,7 +6,9 @@ button.addEventListener("click", function () {
   result.innerText = "Result:";
   let summ = 0;
   for (let i = 1; i <= input; i++) {
-    summ += i;
+    if (i % 2 === 0) {
+      summ += i;
+    }
   }
   result.innerText = summ;
 });
