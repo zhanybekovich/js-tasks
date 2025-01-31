@@ -1,23 +1,20 @@
 const taskText =
-  "Дана строка. Если в этой строке более одного символа, выведите в консоль предпоследний символ этой строки.";
+  "Даны два целых числа. Проверьте, что первое число без остатка делится на второе.";
 
 const h1 = document.getElementById("task");
 
 h1.innerText = taskText;
 
-const label = document.getElementById("input-label");
-
-label.innerText = "Введите строку";
-
 const button = document.getElementById("submitBtn");
+const result = document.getElementById("result");
 
 button.addEventListener("click", function () {
-  const input = document.getElementById("user-input").value;
-  const result = document.getElementById("result");
+  const num1 = Number(document.getElementById("number1").value);
+  const num2 = Number(document.getElementById("number2").value);
 
-  if (input.length > 1) {
-    result.innerText = input.slice(-2, -1);
+  if (num1 % num2 === 0) {
+    result.innerText = "Делится";
   } else {
-    result.innerText = "Ошибка введите нормальный текст";
+    result.innerText = "Не делится";
   }
 });
