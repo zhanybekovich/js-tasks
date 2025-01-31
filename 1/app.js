@@ -5,7 +5,9 @@ button.addEventListener("click", function () {
   const input = Number(document.getElementById("number1").value);
   result.innerText = "Result:";
 
-  for (let i = input; i <= 20; i++) {
-    result.innerText += ` ${i}`;
+  for (let i = 1; i <= input; i++) {
+    if (i % 3 === 0) {
+      result.innerText += ` ${i}`;
+    }
   }
 });
