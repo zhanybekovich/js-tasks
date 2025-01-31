@@ -61,3 +61,16 @@
 // let namber = 12344;
 
 // console.log(namber.toString().length);
+
+// №5 Даны два числа. Проверьте, что первые цифры этих чисел совпадают.
+// const a = String(12345);
+// const b = String(22345);
+
+// if (a[0] === b[0]) {
+//   console.log("====");
+// } else {
+//   console.log("----");
+// }
+
+// const x = 213;
+// console.log(x.toString());
